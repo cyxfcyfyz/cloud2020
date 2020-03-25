@@ -174,4 +174,7 @@ public class TestLambda2 {
        System.out.println(count);
    }
 //软通华为添加的代码
+
+//fcy第二天上班写的代码
+
 }
