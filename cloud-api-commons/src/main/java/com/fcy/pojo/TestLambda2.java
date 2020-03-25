@@ -173,5 +173,5 @@ public class TestLambda2 {
                .count();
        System.out.println(count);
    }
-
+//软通华为添加的代码
 }
