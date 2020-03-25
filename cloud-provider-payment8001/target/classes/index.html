@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="/js/jquery.min.js"></script>
+    <script>
+        function pp() {
+          $.get(
+              "hello",
+              {'serial':$("#name").val()},
+              function (data) {
+                alert(data);
+              }
+          )
+        }
+    </script>
+</head>
+<body>
+<center>
+姓名:<input type="text" id="name" placeholder="姓名"><br>
+<input type="button" value="登陆" id="btn" onclick="pp()">
+</center>
+</body>
+</html>
